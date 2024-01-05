@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Murecho&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a short Survey Form. Your best experience is our Goal. </p>
+    <form id="survey-form">
+
+      <fieldset>
+      <label for="name" id="name-label">Your name: <input type="text" id="name" placeholder="Ankit" required name="name"/> </label>
+      <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Ankit225vikas@gmail.com" required name="email"/> </label>
+      <label for="number" id="number-label">ID number: <input type="number" id="number"  required name="Id" pattern="[0-9]" min=1 max=999999 placeholder="12"/> </label>
+      </fieldset>
+
+
+      <fieldset class="specific">
+      <label for="dropdown">Where did you hear about us ?
+      <select id="dropdown">
+        <option value="Twitter">Twitter</option>
+        <option value="facebook">Facebook</option>
+        
+      </select>
+      </label>
+      </fieldset>
+
+      <fieldset class="borless">
+
+      <legend>Status</legend>
+
+      <label for="professional" class="borin"><input class="inline" id="professional" type="radio" name="status" value="professional"/> Professional</label>
+       <label for="non-professional" class="borin"> <input class="inline" id="non-professional" type="radio" name="status" value="non-professional"/> Non-professional</label>
+
+
+
+
+
+</fieldset>
+<fieldset class="borless">
+    <legend>Area of Activity</legend>
+
+  <label for="europe" class="borinb"><input class="inline" name="check" type="checkbox" id="europe" value="Europe"/> Europe</label>
+  <label for="asia" class="borinb"><input class="inline" name="check" type="checkbox" id="asia" value="Asia"/> Asia</label>
+  <label for="africa" class="borinb"><input  class="inline" name="check" type="checkbox" id="africa" value="Africa"/> Africa</label>
+  <label for="north" class="borinb"><input class="inline" name="check" type="checkbox" id="north" value="north-America"/>North America</label>
+  <label for="south" class="borinb"><input class="inline" name="check" type="checkbox" id="south" value="south-America"/>South America</label>
+  <label for="australia" class="borinb"><input  class="inline" name="check" type="checkbox" id="australia" value="Australia"/>Australia</label>
+  </fieldset>
+
+  <fieldset>
+    <label for="comment">Bio: <textarea id="comment" name="bio" placeholder="Write your valuable Suggestion here." cols=30 rows=8></textarea></label>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Submit" />
+    
+    </form>
+
+  </body>
+  </html>

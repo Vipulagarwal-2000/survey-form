@@ -1,0 +1,146 @@
+body {
+    font-family: 'Murecho', sans-serif;
+}
+
+
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+form {
+    border: none;
+    
+    padding: 20px;
+    max-width :800px;
+    min-width: 500px;
+    margin: 0 auto;
+    border-radius: 1%;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    opacity: 75%;
+
+}
+
+fieldset {
+    margin-bottom: 1.5rem;
+    border: 0;
+
+}
+
+#name-label {
+    margin-top: 50px;
+}
+
+label {
+    
+    font-size: 1.5rem;
+    margin-left: 70px;
+    
+
+}
+input {
+    display:block;
+    margin: 1em auto;
+    height:1.5rem;
+    width:80%;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: default solid #0a0a23;;
+
+    background-color: #0a0a23;
+    color: #f5f6f7;
+    border-radius: 15%;
+
+
+}
+
+
+
+.specific label {
+    vertical-align: baseline;
+}
+select {
+    margin-left: 10px;
+    font-size: .8em;
+    background-color: #0a0a23;
+    color: #f5f6f7;
+    padding: 2px;
+    width: 40%;
+    vertical-align:baseline;
+    border: 1px solid whitesmoke;
+    border-radius: 3%;
+}
+
+
+
+.borless {
+    border : 1px solid #0f4f93;
+    border-radius: 3%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline;
+    
+    vertical-align:middle;
+    width: 1.5rem;
+    margin-right:5px;
+
+}
+
+.borin {
+    display: block;
+    text-align: justify;
+    padding-bottom: 10px;
+    
+}
+
+legend {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.borinb {
+    display: inline-block;
+    margin-bottom:5px;
+    margin-left:20px;
+    width:30%;
+    margin-right:90px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+textarea {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    padding: 5px;
+    font-family: 'Murecho', sans-serif;
+    font-size:1.5rem;
+
+
+}
+
+#submit {
+    padding: 5px;
+    height:3rem;
+    width:40%;
+    background-color:#49e312;
+    border-radius: 0;
+
+
+}
